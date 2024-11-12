@@ -1,6 +1,6 @@
-﻿namespace MarkLoggingApp;
+﻿using Microsoft.Extensions.Logging;
 
-using Microsoft.Extensions.Logging;
+namespace MarkLoggingApp.Logger;
 
 public class FileLogger(string filePath) : ILogger
 {
